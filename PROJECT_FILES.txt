@@ -1,0 +1,14 @@
+SERVI Browser project file map
+
+settings.gradle.kts                         Gradle project configuration
+build.gradle.kts                            Android/Kotlin plugin versions
+gradle.properties                           Gradle JVM and AndroidX settings
+app/build.gradle.kts                        Android application module configuration
+app/proguard-rules.pro                      ProGuard rules placeholder
+app/src/main/AndroidManifest.xml            App permissions and launcher activity
+app/src/main/java/com/servi/browser/MainActivity.kt  Complete browser UI and behaviour
+app/src/main/res/drawable/servi_logo.xml    Native vector app logo
+app/src/main/res/drawable/bg_splash.xml    Splash-screen gradient
+app/src/main/res/values/styles.xml         App theme and colours
+.github/workflows/android.yml              GitHub Actions APK build workflow
+README.md                                   Setup, privacy notes and build instructions
